@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppDialogTheme" parent="Theme.AppCompat.NoActionBar">
+
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+
+    </style>
+
+    <style name="SwitchButton" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:switchPreferenceStyle">@style/Widget.AppCompat.CompoundButton.Switch
+        </item>
+
+    </style>
+
+    <style name="settingsTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionBarPopupTheme">@style/Theme.AppCompat.Light</item>
+        <item name="android:preferenceStyle">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="VideoTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionBarPopupTheme">@style/Theme.AppCompat.Light</item>
+        <item name="android:preferenceStyle">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="android:textColor">@android:color/black</item>
+
+    </style>
+
+</resources>

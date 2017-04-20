@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory android:title="Streak Details">
+        <EditTextPreference
+            android:defaultValue="@string/streak_user"
+            android:key="streak_user_name"
+            android:selectAllOnFocus="false"
+            android:singleLine="true"
+            android:title="@string/streak_user_holder" />
+        <EditTextPreference
+            android:defaultValue="@string/streak_user_email"
+            android:inputType="textEmailAddress"
+            android:key="streak_user_email"
+            android:selectAllOnFocus="false"
+            android:singleLine="true"
+            android:title="@string/streak_user_email_holder" />
+        <EditTextPreference
+            android:defaultValue="@string/empty_password"
+            android:inputType="textPassword"
+            android:key="wifi_password"
+            android:selectAllOnFocus="false"
+            android:title="@string/wifi_password" />
+
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Connect Phone">
+
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:hint="@string/about"
+            android:key="use_network"
+            android:title="Share Data over Network" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

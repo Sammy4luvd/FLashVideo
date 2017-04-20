@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/clearSettings"
+        android:title="@string/clearSettings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/backup_settings"
+        android:title="@string/backup_settings"
+        app:showAsAction="never"
+
+        />
+    <item
+        android:id="@+id/restore_settings"
+        android:title="@string/restore_settings"
+        app:showAsAction="never" />
+
+</menu>
